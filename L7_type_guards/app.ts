@@ -103,3 +103,9 @@ useVehicle(v2)
 
 
 
+// type casting / type assertion
+
+// const userInput = <HTMLInputElement>document.getElementById("user-input")!;
+
+const userInput = document.getElementById("user-input") as HTMLInputElement;
+userInput.value = "hi there"

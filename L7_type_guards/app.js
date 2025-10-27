@@ -62,3 +62,7 @@ function useVehicle(vehicle) {
 }
 // useVehicle(v1)
 useVehicle(v2);
+// type casting / type assertion
+// const userInput = <HTMLInputElement>document.getElementById("user-input")!;
+var userInput = document.getElementById("user-input");
+userInput.value = "hi there";
